@@ -206,7 +206,7 @@ import mongoose from "mongoose";
 
 // establish connection
 await mongoose.connect(
-  "mongodb+srv://s202268180_db_user:Le5924le@cluster0.4wonwc8.mongodb.net/?appName=Cluster0"
+  "mongodb+srv://s202268180_db_user:Le5924le@cluster0.4wonwc8.mongodb.net/TestDB"
 );
 
 console.log("Connected to MongoDB");
